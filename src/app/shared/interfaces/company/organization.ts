@@ -4,7 +4,7 @@ import { Address } from '../contact/address';
 
 export interface Organization {
     name: string;
-    address: Address;
-    emailAddress: EmailAddress;
-    phoneNumber: PhoneNumber;
+    address?: Address;
+    emailAddress?: EmailAddress;
+    phoneNumber?: PhoneNumber;
 }

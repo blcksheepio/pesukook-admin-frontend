@@ -1,3 +1,3 @@
 export interface EmailAddress {
-    address: string;
+    value: string;
 }
