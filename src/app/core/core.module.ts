@@ -1,9 +1,11 @@
 import { NgModule, Optional, SkipSelf } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { NgReduxModule } from '@angular-redux/store';
 
 @NgModule({
     imports: [
-        CommonModule
+        CommonModule,
+        NgReduxModule
     ],
     declarations: []
 })
