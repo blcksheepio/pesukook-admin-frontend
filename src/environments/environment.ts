@@ -15,7 +15,15 @@ export const environment = {
             emailAddress: {
                 value: 'info@pesukook.ee'
             },
-            phoneNumber: '+372 740 2070'
+            phoneNumber: {
+                value: '+372 740 2070'
+            }
+        },
+        developer: {
+            name: 'BlcksheepIO',
+            emailAddress: {
+                value: 'baaa@iamalamb.com'
+            },
         }
     }
 };
